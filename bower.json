@@ -1,5 +1,5 @@
 {
-  "name": "node-webkit-ember-seed",
+  "name": "image-resizer-node-webkit",
   "dependencies": {
     "handlebars": "~1.3.0",
     "jquery": "^1.11.1",

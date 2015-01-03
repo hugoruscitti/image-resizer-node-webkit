@@ -1,9 +1,13 @@
 <div class='iresize-messages'>
   {{#if messages}}
+    <div>
+      <a href='#' {{action 'clear'}}>Limpiar</a>
+    </div>
+
     {{#each m in messages}}
-      <div>{{m}}</div>
+      <div class='alert alert-success alert-small'>{{m}}</div>
     {{/each}}
   {{else}}
-    No hay mensajes aún.
+    No hay mensajes para mostrar.
   {{/if}}
 </div>

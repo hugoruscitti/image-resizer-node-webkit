@@ -3,6 +3,10 @@
 # compiled output
 /dist
 /tmp
+/cache
+/webkitbuilds
+
+/public/binarios
 
 # dependencies
 /node_modules

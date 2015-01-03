@@ -12,11 +12,29 @@ html, body {
   color: gray;
 }
 
+.iresize-dropzone.hover {
+  background-color: rgb(239, 255, 189);
+}
+
 .iresize-messages {
   position: fixed;
-  bottom: 10px;
+  bottom: 33px;
   padding: 10px;
   top: 50%;
   left: 10px;
   right: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+.iresize-devtools {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.alert-small {
+  padding: 7px;
+  margin-bottom: 2px;
 }

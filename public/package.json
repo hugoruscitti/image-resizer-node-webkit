@@ -1,12 +1,13 @@
 {
   "main": "app://localhost/index.html",
-  "name": "node-webkit-ember-seed",
+  "name": "image-resizer-node-webkit",
   "version": "0.0.1",
   "window": {
-    "title": "node-webkit-ember-seed",
+    "title": "image-resizer-node-webkit",
     "width": 340,
     "height": 450,
-    "toolbar": true,
+    "resizable": false,
+    "toolbar": false,
     "position": "center"
   }
 }

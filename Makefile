@@ -2,7 +2,7 @@ N=[0m
 V=[01;32m
 
 VERSION=0.0.1
-NAME=node-webkit-ember-seed
+NAME=image-resizer-node-webkit
 
 all:
 	@echo "Comando disponibles"
@@ -54,13 +54,13 @@ server:
 
 rename:
 	@echo ""
-	@echo "$(V)Renaming from 'node-webkit-ember-seed' to '${NAME}' $(N)"
+	@echo "$(V)Renaming from 'image-resizer-node-webkit' to '${NAME}' $(N)"
 	@echo ""
-	sed 's/node-webkit-ember-seed/${NAME}/g' public/package.json > __tmp; mv __tmp public/package.json
-	sed 's/node-webkit-ember-seed/${NAME}/g' bower.json > __tmp; mv __tmp bower.json
-	sed 's/node-webkit-ember-seed/${NAME}/g' app/index.html > __tmp; mv __tmp app/index.html
-	sed 's/node-webkit-ember-seed/${NAME}/g' config/environment.js > __tmp; mv __tmp config/environment.js
-	sed 's/node-webkit-ember-seed/${NAME}/g' tests/index.html > __tmp; mv __tmp tests/index.html
+	sed 's/image-resizer-node-webkit/${NAME}/g' public/package.json > __tmp; mv __tmp public/package.json
+	sed 's/image-resizer-node-webkit/${NAME}/g' bower.json > __tmp; mv __tmp bower.json
+	sed 's/image-resizer-node-webkit/${NAME}/g' app/index.html > __tmp; mv __tmp app/index.html
+	sed 's/image-resizer-node-webkit/${NAME}/g' config/environment.js > __tmp; mv __tmp config/environment.js
+	sed 's/image-resizer-node-webkit/${NAME}/g' tests/index.html > __tmp; mv __tmp tests/index.html
 
 
 .PHONY: dist

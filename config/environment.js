@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'node-webkit-ember-seed',
+    modulePrefix: 'image-resizer-node-webkit',
     environment: environment,
     baseURL: '',
     locationType: 'hash',

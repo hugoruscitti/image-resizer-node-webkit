@@ -4,7 +4,7 @@ image-resizer-node-webkit
 
 Una boceto de aplicación para escalar imágenes a distintos tamaños.
 =======
-node-webkit-ember-seed
+image-resizer-node-webkit
 ======================
 
 Un marco de aplicación pensado como punto de partida
