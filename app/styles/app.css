@@ -1,3 +1,22 @@
 html, body {
-  margin: 20px;
+  margin: 10px;
+}
+
+.iresize-dropzone {
+  width: 300px;
+  border: 3px dashed gray;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  color: gray;
+}
+
+.iresize-messages {
+  position: fixed;
+  bottom: 10px;
+  padding: 10px;
+  top: 50%;
+  left: 10px;
+  right: 10px;
 }

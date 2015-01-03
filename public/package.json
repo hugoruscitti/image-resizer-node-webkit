@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "window": {
     "title": "node-webkit-ember-seed",
-    "width": 800,
-    "height": 500,
+    "width": 340,
+    "height": 450,
     "toolbar": true,
     "position": "center"
   }
