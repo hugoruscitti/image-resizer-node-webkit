@@ -1,5 +1,6 @@
 import Ember from 'ember';
 var path = require('path');
+import resizer from 'image-resizer-node-webkit/utils/resizer';
 
 export default Ember.Controller.extend({
   messages: [],

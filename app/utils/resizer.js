@@ -37,12 +37,7 @@ export default function resizer() {
         if (err) {
           reject(err);
         } else {
-
-          // TODO: simulando una demora de 2 segundos.
-          setTimeout(function() {
-            resolve({output: path.basename(output_path), stdout: stdout});
-          }, 2000);
-
+          resolve({output: path.basename(output_path), stdout: stdout});
         }
       });
 
